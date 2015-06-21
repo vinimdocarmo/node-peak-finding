@@ -1,8 +1,6 @@
-# peak-finding [![Build Status](https://travis-ci.org/vinimdocarmo/peak-finding.svg?branch=master)](https://travis-ci.org/vinimdocarmo/peak-finding)
+# node-peak-finding
 
-> Peak finding module 
-
-Find an element in the array where the element peaks. Notice that the method does not return the the highest peak, it just finds and returns a peak.
+Find an element in an array where the element peaks. Notice that the method does not return the highest peak, it just finds and returns **a** peak.
 
 ## Install
 
