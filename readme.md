@@ -17,6 +17,9 @@ peakFinding([1, 3, 4, 3, 5, 1, 3]);
 //=> 4
 ```
 
+## Time complexity
+&Theta;(log2(n))
+
 ## API
 
 ### peakFinding(list)
