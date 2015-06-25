@@ -2,6 +2,8 @@
 
 Find an element in an array where the element peaks. Notice that the method does not return the highest peak, it just finds and returns **a** peak.
 
+**A element is a peak if this element is larger or equal to both the elements on its sides.**
+
 ## Install
 
 ```
