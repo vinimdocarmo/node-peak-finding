@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Find a peak element in an array list.",
   "license": "MIT",
-  "repository": "vinimdocarmo/peak-finding",
+  "repository": "vinimdocarmo/node-peak-finding",
   "author": {
     "name": "Vinícius do Carmo",
     "email": "vinicius.m.do.carmo@gmail.com",
