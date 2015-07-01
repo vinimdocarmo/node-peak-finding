@@ -1,6 +1,6 @@
 'use strict';
 var assert = require('assert');
-var peakFinding = require('./');
+var peakFinding = require('./../');
 
 it('should return the peak 7 when the list input is [6, 7, 4, 3, 2, 1, 4, 5]', function () {
 	assert.strictEqual(peakFinding([6, 7, 4, 3, 2, 1, 4, 5]), 7);
