@@ -1,6 +1,6 @@
 {
   "name": "peak-finding",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Find a peak element in an array list.",
   "license": "MIT",
   "repository": "vinimdocarmo/node-peak-finding",
@@ -20,8 +20,8 @@
   ],
   "keywords": [
     "peak",
-	"peakfinding",
-	"peak-finding"
+    "peakfinding",
+    "peak-finding"
   ],
   "dependencies": {},
   "devDependencies": {
