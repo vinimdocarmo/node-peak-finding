@@ -20,7 +20,7 @@ peakFinding([1, 3, 4, 3, 5, 1, 3]);
 ```
 
 ## Time complexity
-&Theta;(log2(n)) where *n* is the lenght of the list input.
+&Theta;(log2(n)) where *n* is the lenght of the input list (see [issue#4](https://github.com/vinimdocarmo/node-peak-finding/issues/4)).
 
 ## API
 
