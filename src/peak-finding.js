@@ -15,11 +15,12 @@ module.exports = function peakFinding(list) {
 	while(firstIndex <= lastIndex) {
 		middleIndex = floor((firstIndex + lastIndex) / 2);
 
-		if(list[middleIndex] < list[middleIndex - 1])
+		if(list[middleIndex] < list[middleIndex - 1]) {
 			lastIndex = middleIndex - 1;
-		else if(list[middleIndex] < list[middleIndex + 1])
+		} else if(list[middleIndex] < list[middleIndex + 1]) {
 			firstIndex = middleIndex + 1;
-		else
+		} else {
 			return list[middleIndex];
+		}
 	}
 };
