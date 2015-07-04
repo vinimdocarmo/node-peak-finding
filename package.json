@@ -16,7 +16,8 @@
     "test": "mocha test/test.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "src/"
   ],
   "keywords": [
     "peak",
