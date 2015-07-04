@@ -1,4 +1,4 @@
-# node-peak-finding [![Build Status](https://travis-ci.org/vinimdocarmo/node-peak-finding.svg?branch=master)](https://travis-ci.org/vinimdocarmo/node-peak-finding) [![devDependency Status](https://david-dm.org/vinimdocarmo/node-peak-finding/dev-status.svg)](https://david-dm.org/vinimdocarmo/node-peak-finding)
+# node-peak-finding [![Build Status](https://travis-ci.org/vinimdocarmo/node-peak-finding.svg?branch=master)](https://travis-ci.org/vinimdocarmo/node-peak-finding) [![Coverage Status](https://coveralls.io/repos/vinimdocarmo/node-peak-finding/badge.svg)](https://coveralls.io/r/vinimdocarmo/node-peak-finding) [![devDependency Status](https://david-dm.org/vinimdocarmo/node-peak-finding/dev-status.svg)](https://david-dm.org/vinimdocarmo/node-peak-finding)
 
 Find an element in an array where the element peaks. Notice that the method does not return the highest peak, it just finds and returns **a** peak.
 
