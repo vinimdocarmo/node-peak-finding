@@ -2,9 +2,16 @@
 
 var floor = Math.floor;
 
-module.exports = function peakFinding(list) {
+module.exports = function peakFinding(list, opts) {
 	if(!Array.isArray(list)) {
 		throw new TypeError('Expected an Array');
+	}
+
+	opts = opts || {};
+	opts.highest = opts.highest || false;
+
+	if(opts.highest) {
+		return Math.max.apply(Math, list);
 	}
 
 	var len = list.length,

@@ -17,3 +17,7 @@ it('should return the peak 7 when the list input is [7, 5, 4, 3, 2, 1]', functio
 it('should return the peak 7 when the list input is [1, 2, 3 , 4, 5, 6, 7]', function() {
 	assert.strictEqual(peakFinding([1, 2, 3, 4, 5, 6, 7]), 7);
 });
+
+it('should return the peak 100 when the list input is [1, 4, 5, 3, 2, 4, 100, 6] and options.highest is set to true', function() {
+	assert.strictEqual(peakFinding([1, 4, 5, 3, 2, 4, 100, 6], { highest: true }), 100);
+});
