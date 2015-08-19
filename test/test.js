@@ -18,10 +18,6 @@ describe('1 dimension version', function () {
 	it('should return the peak 7 when the list input is [1, 2, 3 , 4, 5, 6, 7]', function () {
 		assert.strictEqual(peakFinding([1, 2, 3, 4, 5, 6, 7]), 7);
 	});
-
-	it('should return the peak 100 when the list input is [1, 4, 5, 3, 2, 4, 100, 6] and options.highest is set to true', function() {
-		assert.strictEqual(peakFinding([1, 4, 5, 3, 2, 4, 100, 6], { highest: true }), 100);
-	});
 });
 
 describe('2 dimension version', function() {
@@ -32,7 +28,7 @@ describe('2 dimension version', function() {
 		assert.strictEqual(peakFinding([[10,  8, 10, 10],
 										[14, 13, 12, 11],
 										[15,  9, 11, 21],
-										[16, 17, 19, 20]], { twoDimension: true }), 21);
+										[16, 17, 19, 20]]), 21);
 	});
 
 	it('should return 23 when the matrix is [[ 23, 20, 19, 10 ],' +
@@ -42,6 +38,6 @@ describe('2 dimension version', function() {
 		assert.strictEqual(peakFinding([[23, 20, 19, 10],
 										[14, 10, 12, 11],
 										[15,  9, 11, 21],
-										[16, 11, 10, 17]], { twoDimension: true }), 23);
+										[16, 11, 10, 17]]), 23);
 	});
 });

@@ -5,24 +5,15 @@ var floor = Math.floor;
 /**
  *
  * @param {Array} array - An array of number or a matrix (array of arrays)
- * @param {Object} opts
- * @param {Boolean} opts.highest - Whether to return the highest peak (only in one dimension version)
- * @param {Boolean} opts.twoDimension - Whether it is the two dimension version
  *
  * @returns {Number}
  */
-module.exports = function peakFinding(array, opts) {
+module.exports = function peakFinding(array) {
 	if(!Array.isArray(array)) {
 		throw new TypeError('Expected an Array');
 	}
 
-	opts = opts || {};
-	opts.highest = opts.highest || false;
-	opts.twoDimension = opts.twoDimension || false;
-
-	if(opts.highest && !opts.twoDimension) {
-		return Math.max.apply(Math, array);
-	}
+	var twoDimension = Array.isArray(array[0]);
 
 	var len = array.length,
 		firstIndex = 0,
@@ -34,7 +25,7 @@ module.exports = function peakFinding(array, opts) {
 
 		middleIndex = floor((firstIndex + lastIndex) / 2);
 
-		if(opts.twoDimension) {
+		if(twoDimension) {
 			var max = array[0][middleIndex],
 				rowIndex = 0;
 
