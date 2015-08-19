@@ -32,7 +32,7 @@ peakFinding([[23, 20, 19, 10],
 ## Time complexity
 1D Version: &Theta;(log2(n)), where *n* is the length of the input list.
 
-2D Version: &Theta;(n*log2(m)) or &Theta;(n*log2(n)) if n = m, 
+2D Version: &Theta;(n \* log2(m)) or &Theta;(n \* log2(n)) if n = m, 
 where *n* is the number of columns and m the number of rows.
 
 ## API
