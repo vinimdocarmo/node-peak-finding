@@ -2,10 +2,10 @@
 
 Find an element in an array where the element peaks.
 
-**In the One-Dimensional version a element is a peak if this element is larger or equal to both the elements on its 
+**In the One-Dimensional version an element is a peak if this element is larger or equal to both the elements on its 
 sides.**
 
-**In the Two-Dimensional version a element is a peak if this element is larger or equal to all the elements on its 
+**In the Two-Dimensional version an element is a peak if this element is larger or equal to all the elements on its 
 sides (North, south, west and east sides).**
 
 ## Install
