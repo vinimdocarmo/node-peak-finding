@@ -41,3 +41,11 @@ describe('2 dimension version', function() {
 										[16, 11, 10, 17]]), 23);
 	});
 });
+
+describe('error', function () {
+	it ('should throw an error if a non-array argument is passed', function () {
+		assert.throws(function () {
+			peakFinding(null);
+		}, /^TypeError: Expected an Array$/);
+	});
+})
